@@ -1,6 +1,4 @@
-print("Following is the code for Area of circle")
-r=5
-print("Let the radius of the circle be r=",r)
-a=(3.14*r)
-print("a=(3.14*r)")
-print("Area of circle is A=",a)
+print("Let's find out area of a Circle")
+r=float(input("Enter value of radius="))
+Area=3.14*(r**2)
+print("Area of circle is =",Area)
